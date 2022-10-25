@@ -1,0 +1,26 @@
+Olá pessoal,
+
+Trago aqui a solução quando eu mais precisei.
+Troquei o tema do Jupyter notebook e não sabia mais como retornar com o tema inicial (default).
+
+Para retornar ao tema inicial pode ser feito tanto pelo Anaconda Prompt quanto pela própria célula do jupyter notebook.
+
+Caso você queira fazer pelo Anaconda Prompt, basta digitar:
+```
+jt -r
+```
+
+Pouco tempo depois irá aparecer essa mensagem:
+
+Reset css and font defaults in:
+C:\Users\nomepastauser\.jupyter\custom &
+C:\Users\nomepastauser\AppData\Roaming\jupyter\nbextensions
+
+Depois é só atualizar o seu notebook e pronto! Estará feito com a cor do tema inicial. Caso não atualize basta fechar o jupyter e abrir novamente.
+
+Agora caso queira fazer o processo pela célula do  jupyter notebook basta acrescentar o '!':
+
+! jt -r
+
+Espero ter ajudado :)
+
